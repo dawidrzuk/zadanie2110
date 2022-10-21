@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         dodaj.setOnClickListener {
             etykieta.text = etykieta.text.toString() + napis.text.toString()
         }
-
+        przywroc.setOnClickListener {
+            etykieta.text = "Dawid Żuk"
+        }
     }
 }
